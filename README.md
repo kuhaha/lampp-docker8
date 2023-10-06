@@ -7,7 +7,10 @@
 5. Open browser and view top pages
     - `http://localhost` (web home)
     - `http://localhost:8080` (phpmyadmin)
-   
+
+# How to Connect to MySQL in PHP
+- `$conn = new mysqli("mysql","<user>","<passwd>", "db_name");`
+
 # Usefull Docker Commands
 1. start docker
     - `$ docker-compose up -d`
