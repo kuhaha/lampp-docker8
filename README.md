@@ -1,4 +1,13 @@
 # LAMPP Built by Docker
+1. Download & Unzip or Clone the repository
+2. Create `data` folder under `mysql`
+3. Run `docker-compose` command
+    - `$ docker-compose up -d`
+4. Open browser and view top pages
+    - `http://localhost` (web home)
+    - `http://localhost:8080` (phpmyadmin)
+   
+# Usefull Docker Commands
 1. start docker
     - `$ docker-compose up -d`
     - `$ docker compose up -d`
