@@ -1,0 +1,39 @@
+﻿version: '3'
+services:
+  #MySQL用コンテナ
+  mysql:
+    container_name: mysql8
+    image: mysql:5.7
+    volumes:
+      - ./mysql/data:/var/lib/mysql
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=test
+      - MYSQL_USER=test
+      - MYSQL_PASSWORD=test
+
+  #phpMyAdmin用コンテナ
+  phpmyadmin:
+    container_name: phpMyAdmin8
+    depends_on:
+      - mysql
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+    restart: always
+    ports:
+      - 8080:80 # <host-port>:<container-port>
+
+  #php用コンテナ
+  php:
+    container_name: php-apache8
+    build: ./php
+    volumes:
+      - ./htdocs:/var/www/html
+    ports:
+      - 80:80
+    depends_on:
+      - mysql
