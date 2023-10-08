@@ -11,7 +11,7 @@
 # How to Connect to MySQL in PHP
 - `$conn = new mysqli("mysql",<user>,<passwd>, <db_name>);`
 
-# Usefull Docker Commands
+# Useful Docker Commands
 1. start docker
     - `$ docker-compose up -d`
     - `$ docker compose up -d`
