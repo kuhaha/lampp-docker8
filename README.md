@@ -1,7 +1,6 @@
 # LAMPP Built by Docker
 1. Download and Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 2. Download & Unzip or Clone the repository
-3. Create `data` folder under `mysql`
 4. Run `docker-compose` command
     - `$ docker-compose up -d`
 5. Open browser and view top pages
