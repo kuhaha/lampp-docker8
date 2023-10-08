@@ -121,7 +121,7 @@
 
 <main class="container">
   <div class="bg-body-tertiary p-5 rounded">
-    <h1 class="bg-success"><span class="text-white">LAMPP</span> <span class="text-white-50">Apache + MySQL + PHP</span></h1>
+    <h1 class="bg-success rounded px-2"><span class="text-white">LAMPP</span> <span class="text-white-50">Apache + MySQL + PHP</span></h1>
     <h2>Welcome to LAMPP 8.1 on Docker</h2>
     <p class="lead">You have successfully installed LAMPP 8.1 on this system! Now you can start using Apache, MySQL, PHP and other components. Software in this package: </p>
     <ul>
