@@ -125,9 +125,9 @@
     <h2>Welcome to LAMPP 8.1 on Docker</h2>
     <p class="lead">You have successfully installed LAMPP 8.1 on this system! Now you can start using Apache, MySQL, PHP and other components. Software in this package: </p>
     <ul>
-      <li>Apache 2.4.57</li>
-      <li>MySQL 8.1.0 </li>
-      <li>PHP 8.1.4</li>
+      <li><?=apache_get_version()?></li>
+      <li>MySQL/8.1.0</li>
+      <li>PHP/<?=PHP_VERSION?></li>
     </ul>
     <p>Start the Docker Desktop to check the sever status.</p>
     
