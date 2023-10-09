@@ -103,7 +103,7 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="phpinfo.php" role="button">PHPinfo</a>
+          <a class="nav-link active" href="phpinfo.php" role="button">PHPInfo</a>
         </li>
         <li class="nav-item">
             <a class="nav-link active" href="http://localhost:8080" role="button">phpMyAdmin</a>
