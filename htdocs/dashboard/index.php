@@ -123,15 +123,20 @@
     <h1 class="bg-success rounded px-2"><span class="text-white">LAMPP</span> <span class="text-white-50">Apache + MySQL + PHP</span></h1>
     <h2>Welcome to LAMPP on Docker</h2>
     <p class="lead">You have successfully installed LAMPP  on this system! Now you can start using Apache, MySQL, PHP and other components. This package includes the following main components:</p>
-<?php
-  $mysqli = new mysqli("mysql","root","root", "test");
-?>
     <ul>
-      <li><?=apache_get_version()?></li>
-      <li>MySQL/<?=$mysqli->server_info?></li>
-      <li>PHP/<?=PHP_VERSION?></li>
-      <li>phpMyAdmin/5.2.1</li>
-      <li>Composer/2.4.</li>
+    <?php
+      $mysqli = new mysqli("mysql","root","root", "test");
+      foreach( [
+        apache_get_version(),
+        'PHP/' . PHP_VERSION,
+        'MySQL/' . $mysqli->server_info,
+        'phpMyAdmin/5.2.1',
+        'Composer/2.6.5',
+      ]as $component){
+        echo '<li>'. $component . '</li>';
+      }
+    ?>
+      
     </ul>
     <p>Start the Docker Desktop to check the sever status.</p>
     
