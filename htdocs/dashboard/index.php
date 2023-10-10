@@ -93,7 +93,7 @@
   <body>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">LAMPP 8.1 on Docker</a>
+    <a class="navbar-brand" href="#">LAMPP on Docker</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -121,12 +121,17 @@
 <main class="container">
   <div class="bg-body-tertiary p-5 rounded">
     <h1 class="bg-success rounded px-2"><span class="text-white">LAMPP</span> <span class="text-white-50">Apache + MySQL + PHP</span></h1>
-    <h2>Welcome to LAMPP 8.1 on Docker</h2>
-    <p class="lead">You have successfully installed LAMPP 8.1 on this system! Now you can start using Apache, MySQL, PHP and other components. Software in this package: </p>
+    <h2>Welcome to LAMPP on Docker</h2>
+    <p class="lead">You have successfully installed LAMPP  on this system! Now you can start using Apache, MySQL, PHP and other components. This package includes the following main components:</p>
+<?php
+  $mysqli = new mysqli("mysql","root","root", "test");
+?>
     <ul>
       <li><?=apache_get_version()?></li>
-      <li>MySQL/8.1.0</li>
+      <li>MySQL/<?=$mysqli->server_info?></li>
       <li>PHP/<?=PHP_VERSION?></li>
+      <li>phpMyAdmin/5.2.1</li>
+      <li>Composer/2.4.</li>
     </ul>
     <p>Start the Docker Desktop to check the sever status.</p>
     
