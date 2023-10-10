@@ -1,4 +1,4 @@
-# LAMPP Built by Docker
+# LAMPP on Docker
 1. Download and Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 2. Download & Unzip or Clone the repository
 4. Run `docker-compose` command
@@ -24,3 +24,32 @@
     - `$ docker pull <url>`
 6. list images
     - `$ docker images`
+
+# Install Docker 
+## Install on Linux Machine
+1. Enable `centos-extras`
+```
+$ sudo yum install epel-release
+```
+2. Setup Repository
+
+```
+$ sudo yum install -y yum-utils \
+  device-mapper-persistent-data \
+  lvm2
+```
+3. Install Docker Engine
+
+```
+$ sudo yum install docker-ce 
+```
+
+## Install on Windows Machine
+1. Enable Virtualization at BIOS
+2. Install/Update `wsl2`
+```
+$ wsl --update
+$ wsl --list --online
+$ wsl --install -d Ubuntu
+```
+3. Download and Install Docker Desktop
