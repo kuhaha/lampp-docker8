@@ -121,7 +121,7 @@
   <div class="bg-body-tertiary p-5 rounded">
     <h1 class="bg-success rounded px-2"><span class="text-white">LAMPP</span> <span class="text-white-50">Apache + MySQL + PHP</span></h1>
     <h2>Welcome to LAMPP on Docker</h2>
-    <p class="lead">You have successfully installed LAMPP  on this system! Now you can start using Apache, MySQL, PHP and other components. This package includes the following main components:</p>
+    <p class="lead">You have successfully installed LAMPP on this computer! Now you can start using Apache, MySQL, PHP and other components. This package includes the following main components:</p>
 <ul>
 <?php
   $mysqli = new mysqli("mysql","root","root", "test");
