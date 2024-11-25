@@ -10,6 +10,9 @@
 
 # How to Connect to MySQL in PHP
 - `$conn = new mysqli("mysql",<user>,<passwd>, <db_name>);`
+- database user accounts (userid/passwd)
+    - `root`/`root`
+    - `test`/`test`     
 
 # Useful Docker Commands
 1. start docker
