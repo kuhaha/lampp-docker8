@@ -67,9 +67,8 @@ OracleLinux_7_9                 Oracle Linux 7.9
 OracleLinux_8_7                 Oracle Linux 8.7
 OracleLinux_9_1                 Oracle Linux 9.1
 openSUSE-Leap-15.6              openSUSE Leap 15.6
-SUSE-Linux-Enterprise-15-SP5    SUSE Linux Enterprise 15 SP5
-SUSE-Linux-Enterprise-15-SP6    SUSE Linux Enterprise 15 SP6
-openSUSE-Tumbleweed             openSUSE Tumbleweed
+.....
+
 # Choose and install a Linux distribution 
 $ wsl.exe --install -d Ubuntu
 
