@@ -53,8 +53,7 @@ $ sudo yum install docker-ce
 ```sh  
 $ wsl.exe --update
 ```
-   - Check Linux distributions available online
-```sh
+   - Check Linux distributions available online```sh
 $ wsl.exe --list --online
 NAME                            FRIENDLY NAME
 Ubuntu                          Ubuntu
@@ -70,9 +69,7 @@ OracleLinux_9_1                 Oracle Linux 9.1
 openSUSE-Leap-15.6              openSUSE Leap 15.6
 .....
 ```
-   - Choose and install a Linux distribution 
-```sh
+    - Choose and install a Linux distribution```sh
 $ wsl.exe --install -d Ubuntu
-
 ```
 3. Download and Install Docker Desktop
