@@ -1,6 +1,7 @@
 # LAMPP on Docker
 1. Download and Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-2. Download & Unzip or Clone the repository
+2. Download & Unzip or Clone the repository, in folder such as `c:\dev\lampp-docker8`
+    - `$ cd c:\dev\lampp-docker8`
 4. Run `docker-compose` command
     - `$ docker-compose up -d`
 5. Open browser and view top pages
