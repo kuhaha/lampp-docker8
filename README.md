@@ -49,11 +49,12 @@ $ sudo yum install docker-ce
 ## Install on Windows Machine
 1. Enable Virtualization at BIOS
 2. Install/Update `wsl2`
-```
-# Update WSL to newest version   
+  a. Update WSL to newest version 
+```sh  
 $ wsl.exe --update
-
-# Check Linux distributions available online
+```
+   b. Check Linux distributions available online
+```sh
 $ wsl.exe --list --online
 NAME                            FRIENDLY NAME
 Ubuntu                          Ubuntu
@@ -68,8 +69,9 @@ OracleLinux_8_7                 Oracle Linux 8.7
 OracleLinux_9_1                 Oracle Linux 9.1
 openSUSE-Leap-15.6              openSUSE Leap 15.6
 .....
-
-# Choose and install a Linux distribution 
+```
+   b. Choose and install a Linux distribution 
+```sh
 $ wsl.exe --install -d Ubuntu
 
 ```
