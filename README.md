@@ -50,8 +50,8 @@ $ sudo yum install docker-ce
 1. Enable Virtualization at BIOS
 2. Install/Update `wsl2`
 ```
-$ wsl --update
-$ wsl --list --online
-$ wsl --install -d Ubuntu
+$ wsl.exe --update
+$ wsl.exe --list --online
+$ wsl.exe --install -d Ubuntu
 ```
 3. Download and Install Docker Desktop
