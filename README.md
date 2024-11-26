@@ -9,18 +9,15 @@
     - `http://localhost:8080` (phpmyadmin)
 
 
-
-# Install Docker Desktop 
+# How to Install Docker Desktop 
 
 ## Install Docker Desktop on Windows Machine
 1. Enable Virtualization at BIOS
 2. Open WSL terminal
 3. Update WSL 
-```sh  
-$ wsl.exe --update
-```
+  - `$ wsl.exe --update`
 3. Check Linux distributions available online
-```sh
+  ```sh
 $ wsl.exe --list --online
 NAME                            FRIENDLY NAME
 Ubuntu                          Ubuntu
@@ -37,29 +34,23 @@ openSUSE-Leap-15.6              openSUSE Leap 15.6
 .....
 ```
 4. Choose and install a Linux distribution
-```sh
-$ wsl.exe --install -d Ubuntu
-```
+  - `$ wsl.exe --install -d Ubuntu`
 5. Download and Install Docker Desktop
 
 ## Install Docker Desktop on Linux Machine
 1. Enable `centos-extras`
-```
-$ sudo yum install epel-release
-```
+  - `$ sudo yum install epel-release`
 2. Setup Repository
-
-```
+  - ```
 $ sudo yum install -y yum-utils \
   device-mapper-persistent-data \
   lvm2
 ```
 3. Install Docker Engine
+  - `$ sudo yum install docker-ce`
 
-```
-$ sudo yum install docker-ce 
-```
 # How to Connect to MySQL in PHP
+
 - `$conn = new mysqli("mysql",<user>,<passwd>, <db_name>);`
     - user accounts (userid/passwd): `root`/`root`, `test`/`test`     
 
