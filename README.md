@@ -15,10 +15,10 @@
 1. Enable Virtualization at BIOS
 2. Open WSL terminal
 3. Update WSL 
-  - `$ wsl.exe --update`
+    - `$ wsl.exe --update`
 3. Check Linux distributions available online
-  ```sh
-$ wsl.exe --list --online
+    - `$ wsl.exe --list --online`
+```sh
 NAME                            FRIENDLY NAME
 Ubuntu                          Ubuntu
 Debian                          Debian GNU/Linux
@@ -34,20 +34,20 @@ openSUSE-Leap-15.6              openSUSE Leap 15.6
 .....
 ```
 4. Choose and install a Linux distribution
-  - `$ wsl.exe --install -d Ubuntu`
+    - `$ wsl.exe --install -d Ubuntu`
 5. Download and Install Docker Desktop
 
 ## Install Docker Desktop on Linux Machine
 1. Enable `centos-extras`
-  - `$ sudo yum install epel-release`
+    - `$ sudo yum install epel-release`
 2. Setup Repository
-  - ```
+    - ```
 $ sudo yum install -y yum-utils \
   device-mapper-persistent-data \
   lvm2
 ```
 3. Install Docker Engine
-  - `$ sudo yum install docker-ce`
+    - `$ sudo yum install docker-ce`
 
 # How to Connect to MySQL in PHP
 
