@@ -18,6 +18,7 @@
     - `$ wsl.exe --update`
 3. Check Linux distributions available online
     - `$ wsl.exe --list --online`
+
 ```sh
 NAME                            FRIENDLY NAME
 Ubuntu                          Ubuntu
