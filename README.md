@@ -38,14 +38,13 @@ openSUSE-Leap-15.6              openSUSE Leap 15.6
 5. Download and Install Docker Desktop
 
 ## Install Docker Desktop on Linux Machine
+
 1. Enable `centos-extras`
     - `$ sudo yum install epel-release`
 2. Setup Repository
-    - ```
-$ sudo yum install -y yum-utils \
+    - `$ sudo yum install -y yum-utils \
   device-mapper-persistent-data \
-  lvm2
-```
+  lvm2`
 3. Install Docker Engine
     - `$ sudo yum install docker-ce`
 
