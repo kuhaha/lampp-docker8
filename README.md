@@ -48,7 +48,8 @@ $ sudo yum install docker-ce
 
 ## Install on Windows Machine
 1. Enable Virtualization at BIOS
-2. Update WSL 
+2. Open WSL terminal
+3. Update WSL 
 ```sh  
 $ wsl.exe --update
 ```
