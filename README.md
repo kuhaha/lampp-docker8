@@ -45,7 +45,8 @@ openSUSE-Leap-15.6              openSUSE Leap 15.6
    ```sh
   $ sudo yum install -y yum-utils \
   device-mapper-persistent-data \
-  lvm2```
+  lvm2
+  ```
 3. Install Docker Engine
     - `$ sudo yum install docker-ce`
 
