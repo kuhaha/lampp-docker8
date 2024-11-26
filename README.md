@@ -42,8 +42,8 @@ openSUSE-Leap-15.6              openSUSE Leap 15.6
 1. Enable `centos-extras`
     - `$ sudo yum install epel-release`
 2. Setup Repository
-    - `$ sudo yum install -y yum-utils \
-  device-mapper-persistent-data \
+    - `$ sudo yum install -y yum-utils \<br>
+  device-mapper-persistent-data \<br>
   lvm2`
 3. Install Docker Engine
     - `$ sudo yum install docker-ce`
