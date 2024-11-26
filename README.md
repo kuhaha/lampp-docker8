@@ -10,9 +10,9 @@
 
 
 
-# Install Docker 
+# Install Docker Desktop 
 
-## Install on Windows Machine
+## Install Docker Desktop on Windows Machine
 1. Enable Virtualization at BIOS
 2. Open WSL terminal
 3. Update WSL 
@@ -42,7 +42,7 @@ $ wsl.exe --install -d Ubuntu
 ```
 5. Download and Install Docker Desktop
 
-## Install on Linux Machine
+## Install Docker Desktop on Linux Machine
 1. Enable `centos-extras`
 ```
 $ sudo yum install epel-release
