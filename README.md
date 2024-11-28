@@ -14,10 +14,11 @@
 ## Install Docker Desktop on Windows Machine
 1. Enable Virtualization at BIOS
 2. Open WSL terminal
-3. Update WSL 
-    - `$ wsl.exe --update`
-3. Check Linux distributions available online
-    - `$ wsl.exe --list --online`
+3. Install / Update WSL  (if `wsl` command not found, try `wsl.exe`)
+    - `$ wsl --install` 
+    - `$ wsl --update`
+4. Check Linux distributions available online
+    - `$ wsl --list --online`
 ```sh
 NAME                            FRIENDLY NAME
 Ubuntu                          Ubuntu
@@ -34,7 +35,7 @@ openSUSE-Leap-15.6              openSUSE Leap 15.6
 .....
 ```
 4. Choose and install a Linux distribution
-    - `$ wsl.exe --install -d Ubuntu`
+    - `$ wsl --install -d Ubuntu`
 5. Download and Install Docker Desktop
 
 ## Install Docker Desktop on Linux Machine
@@ -53,7 +54,7 @@ openSUSE-Leap-15.6              openSUSE Leap 15.6
 # How to Connect to MySQL in PHP
 
 - `$conn = new mysqli("mysql",<user>,<passwd>, <db_name>);`
-    - user accounts (userid/passwd): `root`/`root`, `test`/`test`     
+    - user accounts (userid/passwd): `root`/`root` for all databases, `test`/`test` only for `test` database     
 
 # Useful Docker Commands
 1. start docker
