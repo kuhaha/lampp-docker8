@@ -135,7 +135,7 @@
     echo '<li>'. $component . '</li>' . PHP_EOL;
   }
 ?></ul>
-<p>Start the Docker Desktop to check the sever status.</p> 
+<p>Check the check the sever status on Docker Desktop.</p> 
   </div>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
