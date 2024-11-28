@@ -54,7 +54,9 @@ openSUSE-Leap-15.6              openSUSE Leap 15.6
 # How to Connect to MySQL in PHP
 
 - `$conn = new mysqli("mysql",<user>,<passwd>, <db_name>);`
-    - user accounts (userid/passwd): `root`/`root` for all databases, `test`/`test` only for `test` database     
+- user accounts (userid/passwd) for database connection: 
+    - `root`/`root` for all databases
+    - `test`/`test` only for `test` database     
 
 # Useful Docker Commands
 1. start docker
